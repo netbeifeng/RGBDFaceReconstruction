@@ -5,9 +5,8 @@ vs./
 
 # Dataset
 !flowchart.png
-Data/
-*.jpg
-*.png
+Data/*
+
 Scripts/Output
 # Dependencies
 Libs
