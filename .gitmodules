@@ -1,0 +1,9 @@
+[submodule "Libs/Eigen"]
+    path = Libs/Eigen
+    url = https://gitlab.com/libeigen/eigen.git
+[submodule "Libs/DLib"]
+    path = Libs/DLib
+    url = https://github.com/davisking/dlib.git
+[submodule "Libs/OpenCV"]
+    path = Libs/OpenCV
+    url = https://github.com/opencv/opencv.git
