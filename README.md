@@ -21,11 +21,11 @@ as the basis for running the program.
 
 - Our own dataset recorded by Intel Realsense L515
     - Set `#define DATASET_REALSENSE 1`, and others to `0`
-    - [Extracted frames](https://syncandshare.lrz.de/getlink/fi97e2faKMB3kjkEEY4Hmj2c/RealSense.zip)
-    - [Raw bag file](https://syncandshare.lrz.de/getlink/fiW6UXZqNZviEy1XJx1evAe7/20220125_183911.bag)
+    - [Extracted frames](https://syncandshare.lrz.de/getlink/fi97e2faKMB3kjkEEY4Hmj2c/RealSense.zip) (Deprecated!)
+    - [Raw bag file](https://syncandshare.lrz.de/getlink/fiW6UXZqNZviEy1XJx1evAe7/20220125_183911.bag) (Deprecated!)
 - Our own dataset recorded by Kinect v2 (with aligned colour frames)
     - Set `#define DATASET_KINECT_V2 1`, and others to `0`
-    - [Extracted frames](https://syncandshare.lrz.de/getlink/fiSAbsoQvHzdEdGxKZKwFRew/Kinect.zip)
+    - [Extracted frames](https://syncandshare.lrz.de/getlink/fiSAbsoQvHzdEdGxKZKwFRew/Kinect.zip) (Deprecated!)
 - ~~[FaceGrabber](https://www.ei.tum.de/mmk/facegrabber/)~~
     - Set `#define DATASET_FACEGRABBER 1`, and others to `0`
     - Depth and Colour frame are not aligned
@@ -36,7 +36,7 @@ as the basis for running the program.
 
 **Note: You may use vcpkg to install dependencies or you need build all dependencies (libraries) by yourself!**
 
-1. Clone the repository `git clone https://gitlab.lrz.de/00000000014A603E/face-reconstruction.git`
+1. Clone the repository 
 2. Install [Eigen](https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip) Library
 3. Install [DLib](http://dlib.net/files/dlib-19.22.zip) Library
 4. Install [OpenCV](https://github.com/opencv/opencv/archive/refs/tags/4.5.5.zip) Library
